@@ -19,7 +19,7 @@ export default function Home() {
               Simplificamos sua jornada para a liberdade financeira.
             </p>
           </article>
-          <article className="w-full lg:w-1/3 flex flex-col h-full">
+          <article className="flex flex-col justify-center w-full lg:w-1/3 ">
             <Forms/>
           </article>
           <article className="w-full lg:w-1/3 flex flex-col h-full">

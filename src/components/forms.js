@@ -2,7 +2,7 @@ export default function Forms() {
   return (
     <form class="bg-white mt-10 lg:mt-0 mx-5 py-8 px-5 rounded-2xl shadow-2xl">
       <h2 className="text-lg text-black font-tasasemibold leading-5 text-center mb-5">
-        Junte-se aos mais de 200 mil alunos <br />
+        Junte-se aos mais de 200.000 alunos <br />
         que já deram o primeiro passo.
       </h2>
       <div class="mb-2">

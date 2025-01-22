@@ -2,20 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family:'fields-regular';
+  src:url("../../assets/fonts/Fields-Regular.otf");
+}
+@font-face {
+  font-family:'fields-semibold';
+  src:url("../../assets/fonts/Fields-SemiBold.otf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family:'tasa-regular';
+  src:url("../../assets/fonts/TASAOrbiter-Regular.otf");
+}
+
+@font-face {
+  font-family:'tasa-semibold';
+  src:url("../../assets/fonts/TASAOrbitert-SemiBold.otf");
+}
+
+:root {
+  --background: #FE4119;
+  --foreground: #ffffff;
+  --primary-font: 'fields-semibold';
+  --secundary-font: 'tasa-regular'
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, rgba(254,65,25,1) 0%, rgba(255,142,118,1) 100%);
+  background-attachment: fixed
+}
+
+.title {
+  font-family: var(--primary-font);
 }

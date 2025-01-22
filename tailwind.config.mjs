@@ -8,8 +8,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#fe4119',
+      },
+      fontFamily: {
+        tasaregular: ['tasa-regular', 'sans-serif'],
+        tasasemibold: ['tasa-semibold', 'sans-serif'],
+        fieldsregular: ['fields-regular', 'serif'],
+        fieldssemibold: ['fields-semibold', 'serif'],
+      },
+      scale: {
+        102: '1.02', //Escala para hovers
       },
     },
   },

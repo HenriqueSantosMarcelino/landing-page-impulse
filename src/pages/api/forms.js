@@ -1,12 +1,12 @@
 export default function handler(req, res) {
   if (req.method === "POST") {
-    const { nome, email } = req.body;
+    const { name, email } = req.body;
 
-    console.log("Dados recebidos:", { nome, email });
+    console.log({ name, email });
 
     return res.status(200).json({
       mensagem: "Dados recebidos com sucesso!",
-      dados: { nome, email },
+      dados: { name, email },
     });
   }
 }

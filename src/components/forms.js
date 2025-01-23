@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { Button, Modal } from "flowbite-react";
 
 export default function Forms() {
-  const [formData, setFormData] = useState({ nome: "", email: "" });
-  const [mensagem, setMensagem] = useState("");
+  const [formData, setFormData] = useState({ name: "", email: "" });
+  const [mensagem, setMensagem] = useState([]);
+
+  const [openModal, setOpenModal] = useState(true);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -10,6 +13,7 @@ export default function Forms() {
   };
 
   const handleSubmit = async (e) => {
+    console.log("Dados do formulário:", formData);
     e.preventDefault();
 
     try {
@@ -21,7 +25,7 @@ export default function Forms() {
 
       const data = await response.json();
       if (response.ok) {
-        setMensagem(data.mensagem);
+        setMensagem(data);
       } else {
         setMensagem("Erro ao enviar os dados.");
       }
@@ -47,7 +51,8 @@ export default function Forms() {
         <input
           type="name"
           id="name"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+          name="name"
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
           focus:ring-1 focus:ring-primary focus:border-primary block w-full p-2.5 
           focus:outline-none focus:ring-offset-0 
           transition duration-200 ease-in-out 
@@ -64,12 +69,13 @@ export default function Forms() {
         <input
           type="email"
           id="email"
+          name="email"
           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
           focus:ring-1 focus:ring-primary focus:border-primary block w-full p-2.5 
           focus:outline-none focus:ring-offset-0 
           transition duration-200 ease-in-out 
           focus:ring-opacity-0 focus:ring-opacity-100"
-          value={formData.name}
+          value={formData.email}
           onChange={handleChange}
           required
         />
@@ -83,7 +89,27 @@ export default function Forms() {
       <p className="font-arial text-gray-400 text-[8pt] text-center">
         Ao enviar, você autoriza o envio de materiais promocionais.
       </p>
-      {mensagem && <p className="text-black">{mensagem}</p>}
+      {mensagem.mensagem && (
+        <>
+          <Modal show={openModal} onClose={() => setOpenModal(false)}>
+            <Modal.Header>
+              Olá, {mensagem.dados.name.split(" ")[0]}!
+            </Modal.Header>
+            <Modal.Body>
+              <div className="space-y-6">
+                <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  É incrível ver seu interesse em fazer parte da Impulse e
+                  começar a gerar renda online! Em breve, você receberá no email: ''{mensagem.dados.email}'', mais
+                  informações sobre como dar os primeiros passos nessa jornada.
+                </p>
+              </div>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button color="failure" className="bg-primary" onClick={() => setOpenModal(false)}>Continuar</Button>
+            </Modal.Footer>
+          </Modal>
+        </>
+      )}
     </form>
   );
 }

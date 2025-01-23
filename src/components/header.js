@@ -9,10 +9,6 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
 
-  const closeDropdown = () => {
-    setIsOpen(false);
-  };
-
   return (
     <header>
       <nav className="font-tasaregular text-sm text-gray-200 bg-black border-gray-200 px-2 lg:px-6 py-1.5">

@@ -27,7 +27,7 @@ export default function Home() {
           </article>
           {/* Modelo e Losangos */}
           <article className="w-full lg:w-1/3 flex flex-col h-full">
-            <div className="relative">
+            <div className="relative overflow-hidden">
               <motion.div
                 initial={{ opacity: 0, scale: 0.8, y: "20%", rotate: 50 }}
                 animate={{ opacity: 1, scale: 1, y: 0, rotate: 45 }}

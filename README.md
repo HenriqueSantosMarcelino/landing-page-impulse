@@ -16,13 +16,7 @@ Landing page responsiva e otimizada para conversão de clientes, construída com
 ### Execução
 * Também no diretório, execute `npm run dev`;
 * Acesse `http://localhost:3000/` em seu navegador.
-## Estrutura
 
-* **/public/assets/fonts && images:** Mídias estáticas e arquivos de fonte. 
-* **/src/components:** Contém os componentes reutilizáveis `header.js` e `forms.js`.
-* **/src/pages:** Contém a página `index.js`, arquivos de configuração Next.JS e meta tags.
-* **/src/pages/api:** Contém a API mockada `forms.js` do projeto, para receber os dados do formulário.
-* **/src/styles:** Arquivos de CSS global.
 ## Estrutura
 
 * **/public/assets/fonts && images:** Mídias estáticas e arquivos de fonte. 

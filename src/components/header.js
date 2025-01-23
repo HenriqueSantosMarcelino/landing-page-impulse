@@ -34,7 +34,7 @@ export default function Header() {
                   className="text-white rouded-sm text-sm inline-flex items-center"
                   onClick={toggleDropdown}
                 >
-                  <i class="fa-solid fa-bars fa-2xl"></i>
+                  <i className="fa-solid fa-bars fa-2xl"></i>
                 </button>
                 {/* Menu dropdown */}
                 <div

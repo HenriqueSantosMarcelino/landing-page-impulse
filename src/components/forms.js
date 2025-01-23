@@ -38,14 +38,14 @@ export default function Forms() {
   return (
     <form
       onSubmit={handleSubmit}
-      class="bg-white mt-10 lg:mt-0 mx-5 py-8 px-5 rounded-2xl shadow-2xl"
+      className="bg-white mt-10 lg:mt-0 mx-5 py-8 px-5 rounded-2xl shadow-2xl"
     >
       <h2 className="text-lg text-black font-tasasemibold leading-5 text-center mb-5">
         Junte-se aos mais de 200.000 alunos <br />
         que já deram o primeiro passo.
       </h2>
-      <div class="mb-2">
-        <label for="name" class="block text-sm font-medium text-gray-900">
+      <div className="mb-2">
+        <label for="name" className="block text-sm font-medium text-gray-900">
           Nome
         </label>
         <input
@@ -62,15 +62,15 @@ export default function Forms() {
           required
         />
       </div>
-      <div class="mb-6">
-        <label for="email" class="block text-sm font-medium text-gray-900">
+      <div className="mb-6">
+        <label for="email" className="block text-sm font-medium text-gray-900">
           E-mail
         </label>
         <input
           type="email"
           id="email"
           name="email"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+          className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
           focus:ring-1 focus:ring-primary focus:border-primary block w-full p-2.5 
           focus:outline-none focus:ring-offset-0 
           transition duration-200 ease-in-out 
@@ -82,7 +82,7 @@ export default function Forms() {
       </div>
       <button
         type="submit"
-        class="text-white bg-primary hover:bg-[#e8401c] focus:ring-1 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center"
+        className="text-white bg-primary hover:bg-[#e8401c] focus:ring-1 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center"
       >
         QUERO SABER MAIS
       </button>

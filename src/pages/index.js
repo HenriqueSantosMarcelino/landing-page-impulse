@@ -71,7 +71,7 @@ export default function Home() {
               <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
                 Capacitação Acessível &nbsp;
 
-                <i class="fa-solid fa-md fa-hand-holding-dollar"></i>
+                <i className="fa-solid fa-md fa-hand-holding-dollar"></i>
               </h2>
               <p className="font-tasaregular text-gray-600">
                 Desenvolva habilidades digitais e abra portas para novas
@@ -83,7 +83,7 @@ export default function Home() {
               <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
                 Estude Online &nbsp;
 
-                <i class="fa-solid fa-wifi"></i>
+                <i className="fa-solid fa-wifi"></i>
               </h2>
               <p className="font-tasaregular text-gray-600">
                 Aprenda, trabalhe de qualquer lugar e conquiste sua liberdade
@@ -95,7 +95,7 @@ export default function Home() {
               <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
                 Transformação Pessoal &nbsp;
 
-                <i class="fa-solid fa-user-graduate"></i>
+                <i className="fa-solid fa-user-graduate"></i>
               </h2>
               <p className="font-tasaregular text-gray-600">
                 Adquira novos conhecimentos e transforme sua vida com a Impulse.
@@ -106,7 +106,7 @@ export default function Home() {
               <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
               Renda Extra &nbsp;
 
-                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <i className="fa-solid fa-money-bill-trend-up"></i>
               </h2>
               <p className="font-tasaregular text-gray-600">
                 Ganhe dinheiro online com as habilidades que você aprende com a

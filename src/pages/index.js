@@ -68,47 +68,47 @@ export default function Home() {
         <section className="w-full bg-gray-100 h-[80vh] md:h-[58vh] lg:h-[30vh] flex items-center">
           <div className="w-[75%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
             <article className="bg-white  p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
-              <h2 className="text-primary text-xl font-semibold text-gray-800 mb-2">
+              <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
                 Capacitação Acessível &nbsp;
 
                 <i class="fa-solid fa-md fa-hand-holding-dollar"></i>
               </h2>
-              <p className="text-gray-600">
+              <p className="font-tasaregular text-gray-600">
                 Desenvolva habilidades digitais e abra portas para novas
                 oportunidades.
               </p>
             </article>
 
             <article className="bg-white p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
-              <h2 className="text-primary text-xl font-semibold text-gray-800 mb-2">
-                Renda Online &nbsp;
+              <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
+                Estude Online &nbsp;
 
                 <i class="fa-solid fa-wifi"></i>
               </h2>
-              <p className="text-gray-600">
+              <p className="font-tasaregular text-gray-600">
                 Aprenda, trabalhe de qualquer lugar e conquiste sua liberdade
                 financeira.
               </p>
             </article>
 
             <article className="bg-white p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
-              <h2 className="text-primary text-xl font-semibold text-gray-800 mb-2">
+              <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
                 Transformação Pessoal &nbsp;
 
                 <i class="fa-solid fa-user-graduate"></i>
               </h2>
-              <p className="text-gray-600">
+              <p className="font-tasaregular text-gray-600">
                 Adquira novos conhecimentos e transforme sua vida com a Impulse.
               </p>
             </article>
 
             <article className="bg-white p-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
-              <h2 className="text-primary text-xl font-semibold text-gray-800 mb-2">
+              <h2 className="font-tasasemibold text-primary text-xl font-semibold text-gray-800 mb-2">
               Renda Extra &nbsp;
 
                 <i class="fa-solid fa-money-bill-trend-up"></i>
               </h2>
-              <p className="text-gray-600">
+              <p className="font-tasaregular text-gray-600">
                 Ganhe dinheiro online com as habilidades que você aprende com a
                 Impulse.
               </p>

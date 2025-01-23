@@ -21,7 +21,7 @@ export default function Header() {
           />
           <div className="flex items-center lg:order-2">
             <a
-              href="#"
+              href="https://academy.beimpulse.com/"
               className="font-tasasemibold bg-gray-100 text-primary focus:ring-2 focus:ring-primary rounded text-sm focus:outline-none px-2 py-1 sm:px-4 lg:px-6 lg:py-0.5 flex items-center transition-all duration-100 ease-in-out hover:bg-white hover:scale-102"
             >
               Academy
@@ -55,7 +55,7 @@ export default function Header() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://beimpulse.com/treinamentos"
                         className="text-black block py-2 pr-4 pl-3 text-center rounded transition-all duration-100 ease-in-out focus:bg-gray-200 hover:scale-102"
                       >
                         Treinamentos
@@ -63,15 +63,15 @@ export default function Header() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://beimpulse.com/a-impulse/central-de-ajuda"
                         className="text-black block py-2 pr-4 pl-3 text-center rounded transition-all duration-100 ease-in-out focus:bg-gray-200 hover:scale-102"
                       >
-                        Contato
+                        Ajuda
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://beimpulse.com/a-impulse"
                         className="text-black block py-2 pr-4 pl-3 text-center rounded transition-all duration-100 ease-in-out focus:bg-gray-200 hover:scale-102"
                       >
                         Sobre
@@ -84,10 +84,10 @@ export default function Header() {
             </div>
           </div>
           <div
-            className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1 ml-24"
             id="mobile-menu-2"
           >
-            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <ul className="text-center flex flex-col mt-4 font-medium lg:flex-row lg:space-x-16 lg:mt-0">
               <li>
                 <a
                   href="#"
@@ -99,7 +99,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://beimpulse.com/treinamentos"
                   className="block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:text-primary-700 lg:p-0 transition-all duration-100 ease-in-out hover:text-white hover:scale-102"
                 >
                   Treinamentos
@@ -107,15 +107,15 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://beimpulse.com/a-impulse/central-de-ajuda"
                   className="block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:text-primary-700 lg:p-0 transition-all duration-100 ease-in-out hover:text-white hover:scale-102"
                 >
-                  Contato
+                  Ajuda
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://beimpulse.com/a-impulse"
                   className="block py-2 pr-4 pl-3 rounded lg:bg-transparent lg:text-primary-700 lg:p-0 transition-all duration-100 ease-in-out hover:text-white hover:scale-102"
                 >
                   Sobre

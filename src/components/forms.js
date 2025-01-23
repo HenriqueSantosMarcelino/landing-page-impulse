@@ -93,11 +93,13 @@ export default function Forms() {
         <>
           <Modal show={openModal} onClose={() => setOpenModal(false)}>
             <Modal.Header>
+              <h2 className="font-tasasemibold">
               Olá, {mensagem.dados.name.split(" ")[0]}!
+              </h2>
             </Modal.Header>
             <Modal.Body>
               <div className="space-y-6">
-                <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                <p className="font-tasaregular text-base leading-relaxed text-gray-500 dark:text-gray-400">
                   É incrível ver seu interesse em fazer parte da Impulse e
                   começar a gerar renda online! Em breve, você receberá no email: ''{mensagem.dados.email}'', mais
                   informações sobre como dar os primeiros passos nessa jornada.

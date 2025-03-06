@@ -16,7 +16,7 @@ export default function Home() {
               IMPULSE
             </h1>
             <h1 className="text-[28pt] text-white font-fieldssemibold leading-10">
-              Transforme a sua vida com renda online.
+              Teste homol
             </h1>
             <p className="font-fieldsregular">
               Simplificamos sua jornada para a liberdade financeira.
